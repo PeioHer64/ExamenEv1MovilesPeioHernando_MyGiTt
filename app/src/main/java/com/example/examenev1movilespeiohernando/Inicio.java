@@ -26,6 +26,7 @@ public class Inicio extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
+                //este boton lleba al menu principal
                 startActivity(Pagina2);
 
             }

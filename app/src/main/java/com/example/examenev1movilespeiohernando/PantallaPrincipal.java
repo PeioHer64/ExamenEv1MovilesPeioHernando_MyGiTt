@@ -75,9 +75,13 @@ public class PantallaPrincipal extends AppCompatActivity {
 
         Intent Pagina3 = new Intent(this, PantallaLugar.class);
 
+        //al clickar en la imagen lleva a la siguiente pagina con una variable de el nombre de la ciudad seleccionada
+
+
         imageSevilla.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
 
                 Bundle bundle = new Bundle();
                 bundle.putString("nombreCiudad", "Sevilla");

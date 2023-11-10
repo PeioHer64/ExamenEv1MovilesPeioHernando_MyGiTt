@@ -52,6 +52,7 @@ public class PantallaLugar extends AppCompatActivity {
         Intent Pagina2 = new Intent(this, PantallaPrincipal.class);
 
 
+        //se modifica el texto o imagen en vase a la variable obtenida de la ciudad
         if(ciudadRecivida.equals("Sevilla")){
             textViewLugar.setText("Sevilla");
             imageViewS.setVisibility(View.VISIBLE);
@@ -87,7 +88,7 @@ public class PantallaLugar extends AppCompatActivity {
         });
 
 
-
+//se vuelve a la pagina anterior pero con una variable para poner el favorito
         buttonVolverFavs.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
